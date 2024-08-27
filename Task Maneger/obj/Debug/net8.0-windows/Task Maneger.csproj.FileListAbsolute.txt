@@ -1,0 +1,23 @@
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\bin\Debug\net8.0-windows\Task Maneger.exe
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\bin\Debug\net8.0-windows\Task Maneger.deps.json
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\bin\Debug\net8.0-windows\Task Maneger.runtimeconfig.json
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\bin\Debug\net8.0-windows\Task Maneger.dll
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\bin\Debug\net8.0-windows\Task Maneger.pdb
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-windows\Task Maneger_MarkupCompile.cache
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-windows\Task Maneger_MarkupCompile.lref
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-windows\Task Maneger.g.resources
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-windows\Task Maneger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-windows\Task Maneger.AssemblyInfoInputs.cache
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-windows\Task Maneger.AssemblyInfo.cs
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-windows\Task Maneger.csproj.CoreCompileInputs.cache
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-windows\Task Maneger.sourcelink.json
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-windows\Task Maneger.dll
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-windows\refint\Task Maneger.dll
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-windows\Task Maneger.pdb
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-windows\Task Maneger.genruntimeconfig.cache
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-windows\ref\Task Maneger.dll
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-windows\RunNewTaskWindow.g.cs
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-windows\RunNewTaskWindow.baml
