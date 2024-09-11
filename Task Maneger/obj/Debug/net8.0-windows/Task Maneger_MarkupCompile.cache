@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\App.xaml
-2126070753
-
-5-1125238467
+3-937974176
+2-637918725
+6-561043782
 198-294894759
-MainWindow.xaml;RunNewTaskWindow.xaml;
+BlackListWindow.xaml;MainWindow.xaml;RunNewTaskWindow.xaml;
 
 False
 

@@ -5,8 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Task_Maneger"
         mc:Ignorable="d"
-        Title="RunNewTaskWindow" Height="245" Width="390">
+        Title="Run" Height="245" Width="390" ResizeMode="NoResize" Icon="\Images\Run_icon.png">
     <Grid>
-        
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="\Images\Run_NEw_Task.png" Width="45" Margin="10 20 0 0"/>
+                <TextBlock Width="300" TextWrapping="Wrap" Margin="10 25 0 0">
+                    Type the name of a program, folder, document, or Internet resource, and Windows will open it for you.
+                </TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Open:" Margin="5 30 0 0" FontSize="18"/>
+                <TextBox Name="OpenTextBox" Width="280" Height="30" VerticalAlignment="Bottom" Margin="10 0 0 0" FontSize="17"/>
+            </StackPanel>
+            <Grid Background="#2333" Height="80" Margin="0 10 0 0">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Content="OK" Height="25" Margin="0 0 10 0" Width="80" Click="Button_Click"/>
+                    <Button Content="Cancel" Height="25" Margin="0 0 10 0" Width="80" Click="Button_Click_1"/>
+                    <Button Content="Browse..." Height="25" Margin="0 0 10 0" Width="80" Click="Button_Click_2"/>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
     </Grid>
 </Window>

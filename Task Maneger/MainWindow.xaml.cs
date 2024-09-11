@@ -22,9 +22,12 @@ namespace Task_Maneger
     {
         private DispatcherTimer _timer;
         private ObservableCollection<Process> programs;
+        private  ObservableCollection<Process> blackList;
+
+
 
         public Process process { get; set; } = new();
-
+        public ObservableCollection<Process> BlackList { get => blackList; set { blackList = value; OnPropertyChanged(); } }
         public ObservableCollection<Process> Programs { get => programs; set { programs = value; OnPropertyChanged(); } }
 
         #region OnPropertyChanged
@@ -52,6 +55,7 @@ namespace Task_Maneger
             DataContext = this;
             StartAutoRefresh();
             Programs = new(Process.GetProcesses().ToList());
+            BlackList = new();
 
             DispatcherTimer timer = new DispatcherTimer();
 
@@ -78,6 +82,20 @@ namespace Task_Maneger
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             var a = new RunNewTaskWindow();
+            a.ShowDialog();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            if(ProcessDetailsDataGrid.SelectedItem != null)
+            {
+                BlackList.Add(ProcessDetailsDataGrid.SelectedItem as Process);
+            }
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            var a = new BlackListWindow(BlackList);
             a.ShowDialog();
         }
     }

@@ -61,8 +61,8 @@
         </DataGrid>
 
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-            <Button Width="100" Margin="0 0 20 0" Content="Black List"/>
-            <Button Width="100" Margin="0 0 20 0" Content="Add To Black List"/>
+            <Button Width="100" Margin="0 0 20 0" Content="Black List" Click="Button_Click_3"/>
+            <Button Width="100" Margin="0 0 20 0" Content="Add To Black List" Click="Button_Click_2" Tag="{Binding BlackList.Count}"/>
             <Button Width="100" Margin="0 0 20 0" Content="Run New Task" Click="Button_Click_1"/>
             <Button Width="100" Margin="0 0 20 0" Content="End Task" Click="Button_Click"/>
         </StackPanel>

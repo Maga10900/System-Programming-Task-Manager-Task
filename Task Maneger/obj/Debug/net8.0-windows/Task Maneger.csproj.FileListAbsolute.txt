@@ -21,3 +21,8 @@ C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-window
 C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-windows\ref\Task Maneger.dll
 C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-windows\RunNewTaskWindow.g.cs
 C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-windows\RunNewTaskWindow.baml
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-windows\Task Maneger_Content.g.cs
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\bin\Debug\net8.0-windows\Images\Run_icon.png
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\bin\Debug\net8.0-windows\Images\Run_New_Task.png
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-windows\BlackListWindow.g.cs
+C:\Users\Muhammad\source\repos\Task Maneger\Task Maneger\obj\Debug\net8.0-windows\BlackListWindow.baml

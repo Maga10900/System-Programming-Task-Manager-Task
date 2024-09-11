@@ -9,4 +9,18 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Images\Run_icon.png" />
+    <None Remove="Images\Run_New_Task.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\Run_icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Run_New_Task.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

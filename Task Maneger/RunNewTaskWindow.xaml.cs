@@ -1,5 +1,8 @@
-﻿using System;
+﻿using Microsoft.Win32;
+
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,6 +25,34 @@ namespace Task_Maneger
         public RunNewTaskWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if(OpenTextBox.Text != string.Empty)
+            {
+                try
+                {
+                    Process.Start(OpenTextBox.Text);
+                }
+                catch (Exception ex)
+                {
+
+                    MessageBox.Show(ex.Message);
+                }
+            }
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog fileDialog = new();
+            fileDialog.ShowDialog();
+            OpenTextBox.Text = fileDialog.FileName;
         }
     }
 }
